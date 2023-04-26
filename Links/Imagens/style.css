@@ -105,3 +105,19 @@ img {
     font-size: 11px
   }
 }
+
+.floating-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+  color: black;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all .1s linear;
+}
+
+#logocs {
+  width: 200px;
+}

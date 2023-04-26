@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.floating-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all .1s linear;
+}
+
+#logocs {
+    width: 200px;
+}
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+    color: white;
+}
+
+#imagem-smoke {
+    width: 200px;
+    margin: auto;
+    display: block;
+    transition: transform .3s;
+    border-radius: 50%
+}
+
+#imagem-smoke:hover {
+    transform: scale(2.8);
+    border-radius: 50%
+}
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+table {
+    color: white;
+    border: 1px red;
+}
+
+#aspa {
+    color: white;
+}
+
+#listacs {
+    color: white;
+}
+
+* {
+    font-family: 'Permanent Marker', cursive;
+  }
